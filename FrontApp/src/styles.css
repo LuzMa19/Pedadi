@@ -1,5 +1,5 @@
 .carousel-item {
-    width: 100%;
+    width: auto;
     height: 400px;
 }
 
@@ -9,8 +9,14 @@
     }
 }
 
-.footer {
-    position: absolute;
+footer {
+    color: white;
+    /* position: fixed; */
     bottom: 0px;
     width: 100%;
+}
+
+nav.navbar {
+    /* background-color: #93c013; */
+    background-color: #004173
 }
